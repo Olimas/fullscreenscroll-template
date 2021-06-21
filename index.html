@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Поэкранный скролл. Навигация. Параллакс</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<nav class="header__menu menu">
+				<a href="" class="menu__link">Экран №1</a>
+				<a href="" class="menu__link">Экран №2</a>
+				<a href="" class="menu__link">Экран №3</a>
+				<a href="" class="menu__link">Экран №4</a>
+			</nav>
+		</header>
+		<main class="page">
+			<div class="page__wrapper">
+				<div class="page__screen screen">
+					<div class="screen__content">
+						<h1 class="screen__title screen__title_bg" data-swiper-parallax="50%" data-swiper-parallax-opacity="0">
+							Поэкранный скролл. Навигация. Параллакс</h1>
+					</div>
+					<div class="screen__body">
+						<div class="screen__image" data-swiper-parallax="33%" data-swiper-parallax-scale="1.1">
+							<img src="img/01.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="page__screen screen">
+					<div class="screen__content">
+						<h2 class="screen__title" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+							data-swiper-parallax-duration="1000">Возду́шный шар</h2>
+						<div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+							data-swiper-parallax-duration="900">
+							<p>
+								Возду́шный шар — летательный аппарат (аэростат), в котором для полёта используется газ, который легче
+								воздуха. Состоит из заполненной газом оболочки и прикреплённой к ней корзины или прицепной кабины. В
+								отличие от дирижаблей, воздушные шары не имеют двигателей для самостоятельного горизонтального движения
+								в воздухе. В зависимости от наполнения, различают монгольфьеры (шары, наполненные нагретым воздухом),
+								шарльеры (наполнены лёгким газом — как правило, водородом или гелием) и розьеры (воздушные суда,
+								использующие одновременно газ и воздух, размещённые в отдельных оболочках).
+
+								<p>Первыми воздушный шар в 1783 году изготовили братья Монгольфье. Созданный ими шар наполнялся горячим
+									воздухом, благодаря которому поднимался вверх. Кроме того, в воздухоплавательной практике применяют
+									следующие газы: водород, водяной газ, светильный газ, аммиак.</p>
+
+								<p>Современные воздушные шары, используемые для демонстрационных и спортивных полётов, также как и шар
+									братьев Монгольфье, в основном наполняются нагретым воздухом. С помощью пропановой горелки воздух
+									нагревается, и, поскольку разреженный горячий воздух легче холодного, шар взлетает. В случае набора
+									слишком большой высоты пилот дёргает за специальный шнур, соединённый с клапаном в оболочке воздушного
+									шара — часть горячего воздуха выходит наружу, и воздушный шар опускается (снижается).</p>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="page__screen screen">
+					<div class="screen__body">
+						<div class="screen__image" data-swiper-parallax="50%">
+							<img src="img/02.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="page__screen screen">
+					<div class="screen__content">
+						<h2 class="screen__title" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+							data-swiper-parallax-duration="1000">Воздушный шар в культуре и искусстве</h2>
+						<div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+							data-swiper-parallax-duration="900">
+								<p>
+									В романе Жюля Верна «Таинственный остров» главные персонажи прилетают из США на остров Линкольна на
+									воздушном шаре.
+								</p>
+								<p>
+									В «Волшебнике Изумрудного города» Александра Волкова Гудвин прилетает из Канзаса в Волшебную страну на
+									воздушном шаре.
+								</p>
+								<p>
+									В «Приключениях Незнайки и его друзей» Николая Носова главные персонажи прилетают из Цветочного города в
+									Зелёный город на воздушном шаре.
+								</p>
+								<p>
+									В 1873 году венгерский художник Пал Синьеи-Мерше написал картину «Воздушный шар».
+									30 августа 2019 года вышел фильм Тома Харпера «Аэронавты» о легендарном подъёме Джеймса Глейшера 5
+									сентября 1862 года. Роль воздухоплавателя сыграл Эдди Редмэйн.
+								</p>
+								<p>
+									В романе Жюль Верна «Пять недель на воздушном шаре» — главные герои на воздушном шаре намереваются
+									пересечь Африку.
+								</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__pagination"></div>
+			<div class="page__scroll"></div>
+		</main>
+	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
